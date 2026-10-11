@@ -1,0 +1,26 @@
+{
+  "name": "Harita Defteri – Türkiye Fiziki, Ekonomi ve Beşerî Haritası",
+  "short_name": "Harita Defteri",
+  "description": "Türkiye haritası üzerinde keşfet, test et; yeni harita paketleri ekle. Çevrimdışı çalışır.",
+  "lang": "tr",
+  "dir": "ltr",
+  "id": "./",
+  "start_url": "./?utm=pwa",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#edf1f5",
+  "theme_color": "#1f5fa8",
+  "categories": ["education", "reference"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Tam ekran harita", "short_name": "Tam ekran", "url": "./?mode=fs", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Nerede bul?", "short_name": "Nerede bul?", "url": "./?mode=where", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Bu nedir?", "short_name": "Bu nedir?", "url": "./?mode=what", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
